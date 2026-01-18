@@ -9,7 +9,7 @@ const Contact = () => {
       Contact
       <h1>This is Client Component</h1>
       <h1>See the state changes {count}</h1>
-      Wee can use buttons events and state only inside the client component not in server component
+      Wee can use buttons click events and state only inside the client component not in server component
       <br />
       <button onClick={()=>setCount(count+1)}>Click me to add</button>
       <br />
